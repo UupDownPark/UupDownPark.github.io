@@ -5,8 +5,12 @@ module.exports = {
     extend: {
       fontFamily:{
         'tenada':['Tenada']
+      },
+     backgroundImage:{
+        'developer':"url('./assets/images/developer.jpg')"
       }
     },
+    
   },
   plugins: [],
 };
