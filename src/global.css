@@ -6,3 +6,8 @@
     font-family: 'Tenada';
     src: url('./assets/fonts/Tenada.ttf');
 }
+
+@font-face {
+    font-family: 'Noto-Sans';
+    src: url('./assets/fonts/NotoSans.TTF');
+}

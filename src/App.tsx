@@ -11,82 +11,96 @@ import { IoCall } from "react-icons/io5";
 function App() {
   return (
     <div className="flex flex-col justify-center items-center" >
-      <div id="introduceContainer" className="h-screen w-screen bg-cover bg-developer"></div>
-     <div id="aboutMeContainer" className="flex flex-col justify-center items-center m-10 max-w-6xl">
-       <span className="font-tenada text-[70px] mb-8">About Me</span>
-       <div className="flex flex-wrap justify-between w-full">
-        <div className="mb-8 w-[33%]">   
-          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
-            <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
-             <MdPeopleAlt className="w-12 h-12 text-slate-800"/>
+      <div id="introduceContainer" className="h-[500px] w-screen bg-cover bg-developer">
+        <div className="flex flex-col justify-center items-center my-28 mx-14">
+          <div className="flex flex-col items-center justify-center text-center">
+            <h1 className="font-noto-sans font-black text-[50px] text-white">박상하 <br /> 프론트 엔드 개발자 포트폴리오 </h1>
+            <hr className="w-24 h-0 border-t-[0.3rem] border-cyan-500 mx-auto my-6 opacity-100"/>
+            <div className="font-noto-sans text-lg text-gray-100">안녕하세요. <br /> 화합하고 생각하는 프론트 엔드 개발자, 박상하입니다.</div>
+          </div>
+        </div>
+      </div>
+      <div id="aboutMeContainer" className="flex flex-col justify-center items-center m-10 max-w-6xl">
+        <span className="font-tenada text-[50px] mb-8">ABOUT ME</span>
+        <div className="flex flex-wrap justify-between w-full">
+          <div className="mb-8 w-[33%]">   
+            <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
+              <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
+              <MdPeopleAlt className="w-12 h-12 text-slate-800"/>
+              </div>
+              <div className="block"> 
+                <div className="font-sans font-bold text-xl mb-2 text-slate-800">이름</div>
+                <div className="font-sans font-normal text-gray-700">박상하</div>
+              </div>
             </div>
-            <div className="block"> 
-              <div className="font-sans font-bold text-xl mb-2 text-slate-800">이름</div>
-              <div className="font-sans font-normal text-gray-700">박상하</div>
+          </div>
+          <div className="mb-8 w-[33%]">   
+            <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
+              <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
+              <FaCalendar className="w-12 h-12 text-slate-800"/>
+              </div>
+              <div className="block"> 
+                <div className="font-sans font-bold text-xl mb-2 text-slate-800">생년월일</div>
+                <div className="font-sans font-normal text-gray-700">95.06.01</div>
+              </div>
+            </div>
+          </div>
+          <div className="mb-8 w-[33%]">   
+            <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
+              <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
+              <FaLocationDot className="w-12 h-12 text-slate-800"/>
+              </div>
+              <div className="block"> 
+                <div className="font-sans font-bold text-xl mb-2 text-slate-800">주소지</div>
+                <div className="font-sans font-normal text-gray-700">대구광역시 동구</div>
+              </div>
+            </div>
+          </div>
+          <div className="mb-8 w-[33%]">   
+            <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
+              <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
+              <IoCall  className="w-12 h-12 text-slate-800"/>
+              </div>
+              <div className="block"> 
+                <div className="font-sans font-bold text-xl mb-2 text-slate-800">연락처</div>
+                <div className="font-sans font-normal text-gray-700">010-5178-7098</div>
+              </div>
+            </div>
+          </div>
+          <div className="mb-8 w-[33%]">   
+            <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
+              <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
+              <MdEmail className="w-12 h-12 text-slate-800"/>
+              </div>
+              <div className="block"> 
+                <div className="font-sans font-bold text-xl mb-2 text-slate-800">이메일</div>
+                <div className="font-sans font-normal text-gray-700">geakura123@gmail.com</div>
+              </div>
+            </div>
+          </div>
+          <div className="mb-8 w-[33%]">   
+            <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
+              <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
+              <BsPencilFill className="w-12 h-12 text-slate-800"/>
+              </div>
+              <div className="block"> 
+                <div className="font-sans font-bold text-xl mb-2 text-slate-800">학력</div>
+                <div className="font-sans font-normal text-gray-700">부산대학교 <br /> (무역학부)</div>
+              </div>
             </div>
           </div>
         </div>
-        <div className="mb-8 w-[33%]">   
-          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
-            <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
-            <FaCalendar className="w-12 h-12 text-slate-800"/>
-            </div>
-            <div className="block"> 
-              <div className="font-sans font-bold text-xl mb-2 text-slate-800">생년월일</div>
-              <div className="font-sans font-normal text-gray-700">95.06.01</div>
-            </div>
-          </div>
-        </div>
-        <div className="mb-8 w-[33%]">   
-          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
-            <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
-            <FaLocationDot className="w-12 h-12 text-slate-800"/>
-            </div>
-            <div className="block"> 
-              <div className="font-sans font-bold text-xl mb-2 text-slate-800">주소지</div>
-              <div className="font-sans font-normal text-gray-700">대구광역시 동구</div>
-            </div>
-          </div>
-        </div>
-        <div className="mb-8 w-[33%]">   
-          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
-            <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
-            <IoCall  className="w-12 h-12 text-slate-800"/>
-            </div>
-            <div className="block"> 
-              <div className="font-sans font-bold text-xl mb-2 text-slate-800">연락처</div>
-              <div className="font-sans font-normal text-gray-700">010-4582-5037</div>
-            </div>
-          </div>
-        </div>
-        <div className="mb-8 w-[33%]">   
-          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
-            <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
-            <MdEmail className="w-12 h-12 text-slate-800"/>
-            </div>
-            <div className="block"> 
-              <div className="font-sans font-bold text-xl mb-2 text-slate-800">이메일</div>
-              <div className="font-sans font-normal text-gray-700">geakura123@gmail.com</div>
-            </div>
-          </div>
-        </div>
-        <div className="mb-8 w-[33%]">   
-          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
-            <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
-            <BsPencilFill className="w-12 h-12 text-slate-800"/>
-            </div>
-            <div className="block"> 
-              <div className="font-sans font-bold text-xl mb-2 text-slate-800">학력</div>
-              <div className="font-sans font-normal text-gray-700">부산대학교 <br /> (무역학부)</div>
-            </div>
-          </div>
-        </div>
-       </div>
-      
-     </div>
-     
-    </div>
+        
+      </div>
+      <div id="skillsContainer" className="flex flex-col justify-center items-center m-10 max-w-6xl">
+        <span className="font-tenada text-[50px] mb-8">SKILLS</span>
+        <div className="flex flex-col flex-wrap justify-around"></div>
+      </div>
+        
+      </div>
+  
   );
 }
 
 export default App;
+ 

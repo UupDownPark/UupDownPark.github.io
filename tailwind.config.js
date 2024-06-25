@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'tenada':['Tenada']
+        'tenada':['Tenada'],
+        'noto-sans':['Noto-Sans']
       },
+  
      backgroundImage:{
         'developer':"url('./assets/images/developer.jpg')"
       }
