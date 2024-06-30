@@ -9,7 +9,7 @@ module.exports = {
       },
   
      backgroundImage:{
-        'developer':"url('./assets/images/developer.jpg')"
+        'developer':"url('assets/images/developer.jpg')"
       }
     },
     

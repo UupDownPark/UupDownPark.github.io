@@ -16,7 +16,7 @@ function App() {
           <div className="flex flex-col items-center justify-center text-center">
             <h1 className="font-noto-sans font-black text-[50px] text-white">박상하 <br /> 프론트 엔드 개발자 포트폴리오 </h1>
             <hr className="w-24 h-0 border-t-[0.3rem] border-cyan-500 mx-auto my-6 opacity-100"/>
-            <div className="font-noto-sans text-lg text-gray-100">안녕하세요. <br /> 화합하고 생각하는 프론트 엔드 개발자, 박상하입니다.</div>
+            <div className="font-noto-sans text-xl text-gray-100">안녕하세요. <br /> 화합하고 생각하는 프론트 엔드 개발자, 박상하입니다.</div>
           </div>
         </div>
       </div>
@@ -92,10 +92,27 @@ function App() {
         </div>
         
       </div>
-      <div id="skillsContainer" className="flex flex-col justify-center items-center m-10 max-w-6xl">
-        <span className="font-tenada text-[50px] mb-8">SKILLS</span>
-        <div className="flex flex-col flex-wrap justify-around"></div>
+      <div className="bg-green-500 w-full flex flex-col justify-center items-center">
+        <div id="skillsContainer" className="flex flex-col justify-center items-center m-10">
+          <span className="font-tenada text-[50px] mb-8">SKILLS</span>
+          <div className="flex flex-wrap flex-col justify-around max-w-6xl h-96">
+            <div id="stackContainerFrontend" className="flex flex-col w-64 bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
+              <div className="w-full h-full font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Frontend</div>
+              <img src="./assets/images/frontendStack.png" className="w-[256px] h-24" />
+            </div>
+            <div id="stackContainerBackend" className="w-64 bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
+              <div className="w-full h-full font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Frontend</div>
+            </div>
+            <div  className="w-64  bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
+              <div className="w-full h-full font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Frontend</div>
+            </div>
+            <div  className="w-64  bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
+              <div className="w-full h-full font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Frontend</div>
+            </div>
+          </div>
+        </div>
       </div>
+     
         
       </div>
   
