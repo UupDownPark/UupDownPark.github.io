@@ -7,7 +7,12 @@ import { BsPencilFill } from "react-icons/bs";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
-
+import BackEndStack from './assets/images/backendStack.svg'
+import FrontEndStack from'./assets/images/frontendStack.jpg'
+import DeployStack from './assets/images/deploy.jpg'
+import CommunicationDevtools from './assets/images/communicationDevtools.jpg'
+import Certificate  from "./assets/images/qnet.jpg";
+import VersionControl from "./assets/images/versionControl.jpg"
 function App() {
   return (
     <div className="flex flex-col justify-center items-center" >
@@ -22,7 +27,7 @@ function App() {
       </div>
       <div id="aboutMeContainer" className="flex flex-col justify-center items-center m-10 max-w-6xl">
         <span className="font-tenada text-[50px] mb-8">ABOUT ME</span>
-        <div className="flex flex-wrap justify-between w-full">
+        <div className="flex flex-wrap justify-between">
           <div className="mb-8 w-[33%]">   
             <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
               <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
@@ -93,23 +98,36 @@ function App() {
         
       </div>
       <div className="bg-green-500 w-full flex flex-col justify-center items-center">
-        <div id="skillsContainer" className="flex flex-col justify-center items-center m-10">
-          <span className="font-tenada text-[50px] mb-8">SKILLS</span>
-          <div className="flex flex-wrap flex-col justify-around max-w-6xl h-96">
-            <div id="stackContainerFrontend" className="flex flex-col w-64 bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
-              <div className="w-full h-full font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Frontend</div>
-              <img src="./assets/images/frontendStack.png" className="w-[256px] h-24" />
-            </div>
-            <div id="stackContainerBackend" className="w-64 bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
-              <div className="w-full h-full font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Frontend</div>
-            </div>
-            <div  className="w-64  bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
-              <div className="w-full h-full font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Frontend</div>
-            </div>
-            <div  className="w-64  bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
-              <div className="w-full h-full font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Frontend</div>
-            </div>
-          </div>
+        <span className="font-tenada text-[50px] mb-8 mt-16">SKILLS</span>
+        <div id="skillsContainer" className="max-w-6xl py-16 px-8 content-around flex flex-col flex-wrap h-screen">
+    
+              <div id="stackContainerFrontend" className=" w-64 h-fit bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
+                <div className="font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Frontend</div>
+                <img src={FrontEndStack}  />
+              </div>
+              <div id="stackContainerBackend" className="w-64 h-fit bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
+                <div className="font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Backend</div>
+                <img src={BackEndStack}  />
+              </div>
+              <div  className="w-64 h-fit  bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
+                <div className="font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Communication & Dev tools</div>
+                <img src={CommunicationDevtools}  />
+              </div>
+              <div  className="w-64 h-fit  bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
+                <div className="font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Deploy</div>
+                <img src={DeployStack}  />
+              </div>
+              <div  className="w-64 h-fit  bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
+                <div className="font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Version Control</div>
+                <img src={VersionControl}  />
+              </div>
+            
+              <div  className="w-64 h-fit bg-white rounded-lg shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-6">
+                <div className="font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">Certificate</div>
+                <img src={Certificate}  />
+                <span className="font-bold font-tenada">정보처리기사(필기+실기)</span>
+              </div>
+         
         </div>
       </div>
      
