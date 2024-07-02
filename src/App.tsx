@@ -1,6 +1,7 @@
 
 import React from "react";
 import "./global.css";
+
 import { MdPeopleAlt } from "react-icons/md";
 import { FaCalendar } from "react-icons/fa";
 import { BsPencilFill } from "react-icons/bs";
@@ -14,6 +15,9 @@ import CommunicationDevtools from './assets/images/communicationDevtools.jpg'
 import Certificate  from "./assets/images/qnet.jpg";
 import VersionControl from "./assets/images/versionControl.jpg"
 import Github from './assets/images/githublongwidth.png'
+import Box from "components/Box";
+
+
 
 function App() {
   return (
@@ -148,11 +152,17 @@ function App() {
                 </div>
                 </a>
               </div>
-             
-         
         </div>
       </div>
-        
+      <div className="bg-gray-800 w-full flex flex-col justify-center items-center">
+        <span className="font-tenada text-[50px] mb-8 mt-16 border-b-4 border-black">PROJECTS</span>
+        <div id="skillsContainer" className="max-w-6xl py-16 px-8 content-around flex flex-col flex-wrap h-2/4">
+              <div id="stackContainerFrontend" className="h-fit bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-12">
+                <img src={Github} className="w-36 h-36" />
+                <Box className="w-36 h-36" />
+              </div>
+        </div>
+      </div>  
       </div>
   
   );
