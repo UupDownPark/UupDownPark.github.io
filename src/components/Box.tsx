@@ -1,13 +1,13 @@
 import React from "react"
 import Slider from "react-slick"
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 interface BoxProps  {
-  className :string;
+  className? :string;
+  imgSrc?: string[];
 }
 
-const Box = ({className}:BoxProps) => {
+const Box = ({className,imgSrc}:BoxProps) => {
+ 
   const settings = {
     dots: true,
     infinite: true,
@@ -17,24 +17,11 @@ const Box = ({className}:BoxProps) => {
   };
   return (
     <Slider {...settings} className={className}>
-      <div>
-        <h3>1</h3>
-      </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
+     {imgSrc?.map((el,idx)=>{
+      return (
+        <img src={el} key={idx} alt="" />
+      )
+     })}
     </Slider>
   );
 };
