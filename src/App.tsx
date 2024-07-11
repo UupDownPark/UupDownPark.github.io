@@ -10,7 +10,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import BackEndStack from './assets/images/backendStack.svg'
-import FrontEndStack from'./assets/images/frontendStack.jpg'
+import FrontEndStack from'./assets/images/frontendStack.png'
 import DeployStack from './assets/images/deploy.jpg'
 import CommunicationDevtools from './assets/images/communicationDevtools.jpg'
 import Certificate  from "./assets/images/qnet.jpg";
@@ -19,10 +19,17 @@ import Github from './assets/images/githublongwidth.png'
 import Box from "components/Box";
 import SuggestionAndPopular1 from './assets/images/SuggestionPopularFirst.jpg'
 import SuggestionAndPopular2 from './assets/images/suggestionPopular.jpg'
+import FindPassword from './assets/images/loginFindPassword.jpg'
 import SignUp from './assets/images/signup.jpg'
 import Login from './assets/images/loginFindPassword.jpg'
-
-const imgSrcArr = [SuggestionAndPopular1,SuggestionAndPopular2,SignUp,Login]
+import Chatting from './assets/images/chatting.jpg'
+import Chatting2 from './assets/images/chatting2.jpg'
+import myPage from './assets/images/myPage.jpg'
+import myPage2 from './assets/images/myPage2.jpg'
+import { FaCheck } from "react-icons/fa";
+const imgSrcArr = [[SignUp, "회원가입"], [Login, "로그인(유효성검사), 비밀번호 찾기"],[SuggestionAndPopular1 , "일기 작성 & 일기 정렬 & 일기 내용,태그 수정"],[SuggestionAndPopular2,"추천일기와 인기일기열람"],
+[Chatting, "매칭이후 채팅"],[Chatting2, "상대프로필 사진 클릭시 상대의 일기 확인 가능"],[myPage, "마이페이지 & 프로필 수정"],[myPage2, "내 선호도 수정"],[FindPassword,"비밀번호 찾기"]
+]
 
 
 function App() {
@@ -150,7 +157,7 @@ function App() {
               <div id="stackContainerFrontend" className="h-fit bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-12">
                 <img src={Github}  />
                 <a href="https://github.com/UupDownPark?tab=repositories">
-                <div className="font-noto-sans text-lg mb-4">https://github.com/UupDownPark?tab=repositories</div>
+                <div className="font-noto-sans text-lg mb-4 text-blue-600 hover:underline hover:underline-offset-1">https://github.com/UupDownPark?tab=repositories</div>
                 <div>
                   <p className="font-noto-sans text-lg mb-4"> <b>소스 코드 저장소</b> 입니다.</p>
                   <li className="font-noto-sans text-lg"> 교육프로그램에서 진행한 프로젝트의 소스코드 </li>
@@ -167,15 +174,70 @@ function App() {
               <div id="stackContainerFrontend" className="h-fit bg-white rounded-2xl shadow-2xl mb-8 mx-12 p-12 ">
                 <div className="flex flex-col justify-center items-center">
                   <h1 className="font-noto-sans font-black text-black text-4xl mb-6">Yeonda</h1>
-                  <div className="font-noto-sans text-gray-300 mb-2">2024.04~2024.05</div>
+                  <div className="font-noto-sans text-gray-300 mb-2">2024.04~2024.05 (6인 프로젝트)</div>
                 </div>
-                <div className="flex flex-row justify-center items-center">
-                  <Box className="block w-[1133px] h-auto" imgSrc={imgSrcArr}/>
-                  <div className="">
-                    
+                <div className="flex flex-rows">
+                  <Box className="w-[1200px] h-auto" imgSrc={imgSrcArr}/>
+                  <div>
+                    <div className="m-6 max-w-xl min-w-80 border-b-[1px] mb-2">
+                          <b>사진과 성향으로 매칭하는 기존 소개팅 어플과 달리 유저가 쓴 일기만 보고 서로 매칭을 해주는 일기 매칭 어플 시스템입니다. </b>
+                          외모보다는 사람의 성향이나 취향을 위주로 매칭해주기 위해서 만든
+                          <span className="text-red-600 font-bold"> 이색 매칭 어플</span>입니다.
+                          <div className="h-5"></div>
+                          평소 공부하던
+                          <span className="text-red-600 font-bold"> TypeScript</span>
+                          를 이용하여 공용컴포넌트를 구현하였고 동료들이 자유롭게 컴포넌트를 활용하기 위해서 기존의 태그 Props를 확장하여 커스텀 공용 컴포넌트를 만들었습니다.
+                          <br />
+                          <div className="h-5"></div>
+                          <span className="text-red-600 font-bold">
+                            Zustand</span>를 처음으로 익히면서 Redux와의 차이를 알 수 있었습니다. 그 외에 마이페이지와 주소지 API와 MUI를 이용하여 프로필 수정페이지도 구현하였습니다.
+                            <div className="h-5"></div>
+                          <button className="mb-4 p-3 rounded-md bg-gray-800 hover:bg-gray-600 text-white font-noto-sans">자세히 보기 ▶ README</button>
+                      </div >
+                      <div className="m-6 max-w-xl">
+                        <div className="flex flex-col">
+                          <div className="flex flex-row space-x-3 items-start m-2">
+                            <div className="flex flex-row text-nowrap space-x-2 items-center">
+                              <FaCheck/>
+                              <div className="font-noto-sans font-bold w-28">주요 기능</div>
+                            </div>
+                            <div>추천일기 좋아요와 싫어요 이후 서로 매칭시 채팅기능 제공, 본인이 원하는 취향 선정가능</div>
+                          </div>
+                          <div className="flex flex-row space-x-3 m-2 items-start">
+                            <div className="flex flex-row text-nowrap space-x-2 items-center">
+                              <FaCheck/>
+                              <div className="font-noto-sans font-bold w-28">GitHub</div>
+                            </div>
+                            <a className="text-blue-600 hover:underline-offset-1 hover:underline" href="https://github.com/UupDownPark/Yeonda">https://github.com/UupDownPark/Yeonda</a>
+                          </div>
+                          <div className="flex flex-row space-x-3 m-2 items-start">
+                            <div className="flex flex-row text-nowrap space-x-2 items-center">
+                              <FaCheck/>
+                              <div className="font-noto-sans font-bold w-28">Frontend</div>
+                            </div>
+                            <div>TypeScript, React, Zustand, Tailwind CSS, Axios, Tanstack Query, Socket.io, React Hook Form, Vite</div>
+                          </div>
+                          <div className="flex flex-row space-x-3 m-2 items-start">
+                            <div className="flex flex-row text-nowrap space-x-2 items-center">
+                              <FaCheck/>
+                              <div className="font-noto-sans font-bold w-28">Backend</div>
+                            </div>
+                            <div>Express, Socket.io, OpenAI, JWT, NodeMailer, Joi, aws-sdk/client-s3, multer</div>
+                          </div>
+                          <div className="flex flex-row space-x-3 m-2 items-start">
+                            <div className="flex flex-row text-nowrap space-x-2 items-center">
+                              <FaCheck/>
+                              <div className="font-noto-sans font-bold w-28">Database</div>
+                            </div>
+                            <div>Mysql</div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
+                   
+                 
                 </div>
-                
+              
               </div>
         </div>
       </div>  
