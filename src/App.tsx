@@ -178,7 +178,7 @@ function App() {
         </span>
         <div
           id="skillsContainer"
-          className="max-w-7xl py-16 content-around flex flex-col flex-wrap max-2xl:flex-nowrap h-content 2xl:h-[150vh]"
+          className="max-w-7xl py-16 content-around flex flex-col flex-wrap max-xl:flex-nowrap h-content xl:h-[150vh]"
         >
           <div
             id="stackContainerFrontend"
