@@ -178,7 +178,7 @@ function App() {
         </span>
         <div
           id="skillsContainer"
-          className="max-w-7xl py-16 content-around flex flex-col flex-wrap max-xl:flex-nowrap h-content  xl:h-[150vh] 2xl:h-[150vh]"
+          className="max-w-7xl py-16 content-around flex flex-col flex-wrap max-xl:flex-nowrap h-content xl:h-[150vh] 2xl:h-[100vh]"
         >
           <div
             id="stackContainerFrontend"
@@ -271,7 +271,7 @@ function App() {
           PROJECTS
         </span>
         <div
-          id="skillsContainer"
+          id="projectContainer"
           className="max-w-8xl min-w-6xl py-16 px-8 content-around flex flex-col flex-wrap h-content"
         >
           <div
@@ -286,8 +286,11 @@ function App() {
                 2024.04 ~ 2024.05 (6인 프로젝트)
               </div>
             </div>
-            <div className="flex flex-col max-2xl:flex-col mt-6">
-              <Box className="w-[80vw] h-auto" imgSrc={imgSrcArr} />
+            <div className="flex flex-row max-2xl:flex-col mt-6">
+              <Box
+                className="w-[80vw] 2xl:w-[50vw] h-auto"
+                imgSrc={imgSrcArr}
+              />
               <div className="flex flex-col justify-center items-center">
                 <div className="m-6 max-w-xl min-w-80 border-b-[1px] mb-2">
                   <b>
@@ -389,7 +392,7 @@ function App() {
           </div>
         </div>
         <div
-          id="skillsContainer"
+          id="projectContainer"
           className="max-w-8xl min-w-6xl py-16 px-8 content-around flex flex-col flex-wrap h-2/4"
         >
           <div
@@ -405,7 +408,10 @@ function App() {
               </div>
             </div>
             <div className="flex flex-row max-2xl:flex-col mt-6">
-              <Box className="w-[80vw] h-auto" imgSrc={imgSrcArr2} />
+              <Box
+                className="w-[80vw] 2xl:w-[50vw] h-auto"
+                imgSrc={imgSrcArr2}
+              />
               <div className="flex flex-col justify-center items-center">
                 <div className="m-6 max-w-xl min-w-80 border-b-[1px] mb-2">
                   <b>
