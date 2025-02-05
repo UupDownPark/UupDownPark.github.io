@@ -1,19 +1,19 @@
 import React from "react";
 import Box from "components/Box";
 import { FaCheck } from "react-icons/fa";
-import SuggestionAndPopular1 from "./assets/images/SuggestionPopularFirst.jpg";
-import SuggestionAndPopular2 from "./assets/images/suggestionPopular.jpg";
-import FindPassword from "./assets/images/loginFindPassword.jpg";
-import SignUp from "./assets/images/signup.jpg";
-import Login from "./assets/images/loginFindPassword.jpg";
-import Chatting from "./assets/images/chatting.jpg";
-import Chatting2 from "./assets/images/chatting2.jpg";
-import myPage from "./assets/images/myPage.jpg";
-import myPage2 from "./assets/images/myPage2.jpg";
-import nostandingLogin from "./assets/images/nostandingLogin.gif";
-import nostandingMainpage from "./assets/images/nostandingMainpage.gif";
-import nostandingOwnder from "./assets/images/nostandingOwner.gif";
-import nostandingUser from "./assets/images/nostandingUser.gif";
+import SuggestionAndPopular1 from "../assets/images/SuggestionPopularFirst.jpg";
+import SuggestionAndPopular2 from "../assets/images/suggestionPopular.jpg";
+import FindPassword from "../assets/images/loginFindPassword.jpg";
+import SignUp from "../assets/images/signup.jpg";
+import Login from "../assets/images/loginFindPassword.jpg";
+import Chatting from "../assets/images/chatting.jpg";
+import Chatting2 from "../assets/images/chatting2.jpg";
+import myPage from "../assets/images/myPage.jpg";
+import myPage2 from "../assets/images/myPage2.jpg";
+import nostandingLogin from "../assets/images/nostandingLogin.gif";
+import nostandingMainpage from "../assets/images/nostandingMainpage.gif";
+import nostandingOwnder from "../assets/images/nostandingOwner.gif";
+import nostandingUser from "../assets/images/nostandingUser.gif";
 
 const imgSrcArr = [
     [SignUp, "회원가입"],

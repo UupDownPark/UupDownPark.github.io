@@ -1,6 +1,6 @@
 import React from "react";
-import codestates from "./assets/images/codestats.png";
-import programmers from "./assets/images/programmers.png";
+import codestates from "../assets/images/codestats.png";
+import programmers from "../assets/images/programmers.png";
 
 
 const Education = () => {
