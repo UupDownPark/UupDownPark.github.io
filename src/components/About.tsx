@@ -56,7 +56,7 @@ const About = () => {
                   주소지
                 </div>
                 <div className="font-sans font-normal text-gray-700">
-                  대구광역시 동구
+                  서울특별시 광진구 군자로7길 32
                 </div>
               </div>
             </div>

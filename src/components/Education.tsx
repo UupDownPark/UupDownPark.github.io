@@ -46,7 +46,7 @@ const Education = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-row max-w-6xl">
+        <div className="flex flex-row max-w-6xl m-12">
           <div>
             <img
               src={codestates}
