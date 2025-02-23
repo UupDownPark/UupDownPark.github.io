@@ -12,11 +12,11 @@ const Career= () => {
            <div>
             <img
               src={daeu}
-              className="w-[20rem] h-[20rem]  border mr-24 border-gray-400"
+              className="w-[12rem] h-[12rem]  border mr-24 border-gray-400"
               alt=""
             />
           </div>
-          <div className="flex flex-col  p-12">
+          <div className="flex flex-col  p-12 border-l-[1px] border-gray-600">
             <div className="font-noto-sans font-bold text-2xl mb-2">
               대유 C & A(인턴)
             </div>
