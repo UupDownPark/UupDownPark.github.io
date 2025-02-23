@@ -36,7 +36,10 @@ const imgSrcArr2 = [
 
 const Project = () => {
   return (
-    <section className="bg-gray-800 w-full flex flex-col justify-center items-center">
+    <section
+      id="project"
+      className="bg-gray-800 w-full flex flex-col justify-center items-center"
+    >
       <span className="font-tenada text-[50px] mb-8 mt-16 border-b-4 border-black">
         PROJECTS
       </span>

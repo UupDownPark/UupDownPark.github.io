@@ -3,15 +3,19 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Tenada';
-    src: url('./assets/fonts/Tenada.ttf');
+  font-family: "Tenada";
+  src: url("./assets/fonts/Tenada.ttf");
 }
 
 @font-face {
-    font-family: 'Noto-Sans';
-    src: url('./assets/fonts/NotoSans.TTF');
+  font-family: "Noto-Sans";
+  src: url("./assets/fonts/NotoSans.TTF");
 }
 
 .slick-slide > div {
-    display: flex;
+  display: flex;
+}
+
+* {
+  scroll-behavior: smooth;
 }

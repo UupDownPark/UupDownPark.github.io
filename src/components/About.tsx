@@ -9,7 +9,7 @@ import React from "react";
 const About = () => {
   return (
     <section
-      id="aboutMeContainer"
+      id="about"
       className="flex flex-col justify-center items-center m-10 max-w-6xl"
     >
       <span className="font-tenada text-[50px] mb-8 border-b-4 border-black">

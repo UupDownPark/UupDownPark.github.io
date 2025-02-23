@@ -13,6 +13,7 @@ import Nav from "components/Nav";
 function App() {
   return (
     <div className="flex flex-col justify-center items-center">
+      <Nav />
       <div
         id="introduceContainer"
         className="h-[500px] w-screen bg-cover bg-developer"
@@ -34,7 +35,7 @@ function App() {
           </div>
         </div>
       </div>
-      <Nav />
+
       <About />
       <Skills />
       <Achiving />
@@ -44,5 +45,25 @@ function App() {
     </div>
   );
 }
+// let sections = document.querySelectorAll("section");
+// let navLinks = document.querySelectorAll("header nav a");
+
+// window.onscroll = () => {
+//   sections.forEach((sec) => {
+//     let top = window.scrollY;
+//     let offset = sec.offsetTop;
+//     let height = sec.offsetHeight;
+//     let id = sec.getAttribute("id");
+
+//     if (top >= offset && top < offset + height) {
+//       navLinks.forEach((links) => {
+//         links.classList.remove("active");
+//         document
+//           .querySelector("header nav a[href*=" + id + "]")
+//           .classList.add("active");
+//       });
+//     }
+//   });
+// };
 
 export default App;

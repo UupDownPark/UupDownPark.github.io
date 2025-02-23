@@ -4,7 +4,10 @@ import programmers from "../assets/images/programmers.png";
 
 const Education = () => {
   return (
-    <section className="bg-gray-200 w-full flex flex-col justify-center items-center">
+    <section
+      id="education"
+      className="bg-gray-200 w-full flex flex-col justify-center items-center"
+    >
       <span className="font-tenada text-[50px] mb-8 mt-16 border-b-4 border-black">
         EDUCATION
       </span>
