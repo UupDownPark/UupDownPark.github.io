@@ -18,8 +18,8 @@ const Box = ({ className, imgSrc }: BoxProps) => {
     <Slider {...settings} className={className}>
       {imgSrc?.map((el, idx) => {
         return (
-          <div key={idx} className="flex flex-col">
-            <img src={el[0]} alt="" className="mb-6 w-auto h-contents" />
+          <div key={idx} className="flex flex-col content-center">
+            <img src={el[0]} alt="" className="mb-6 w-[80vw] h-[70vh]" />
             <div className="text-center mb-4 font-noto-sans text-bold text-base bottom-2">
               {el[1]}
             </div>

@@ -10,18 +10,18 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex flex-col justify-center items-center m-10 max-w-6xl"
+      className="flex flex-col justify-center items-center m-10 max-w-6xl h-[100vh]"
     >
-      <span className="font-tenada text-[50px] mb-8 border-b-4 border-black">
+      <span className="font-tenada text-[50px] mt-16 border-b-4 border-black">
         ABOUT ME
       </span>
-      <div className="flex flex-wrap justify-between my-12">
+      <div className="flex flex-wrap justify-between my-24 h-[85vh]">
         <div className="mb-8 w-[33%]">
-          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
-            <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
-              <MdPeopleAlt className="w-12 h-12 text-slate-800" />
+          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-[33vw]  w-[100%]">
+            <div className="min-w-24 h-8 mt-1 mr-8 block text-start">
+              <MdPeopleAlt className="w-24 h-24 text-slate-800" />
             </div>
-            <div className="block">
+            <div className="block mt-6">
               <div className="font-sans font-bold text-xl mb-2 text-slate-800">
                 이름
               </div>
@@ -30,11 +30,11 @@ const About = () => {
           </div>
         </div>
         <div className="mb-8 w-[33%]">
-          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
-            <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
-              <FaCalendar className="w-12 h-12 text-slate-800" />
+          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-[33vw]  w-[100%]">
+            <div className="min-w-8 h-8 mt-1 mr-8 block text-start">
+              <FaCalendar className="w-24 h-24 text-slate-800" />
             </div>
-            <div className="block">
+            <div className="block mt-6">
               <div className="font-sans font-bold text-xl mb-2 text-slate-800">
                 생년월일
               </div>
@@ -45,11 +45,11 @@ const About = () => {
           </div>
         </div>
         <div className="mb-8 w-[33%]">
-          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
-            <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
-              <FaLocationDot className="w-12 h-12 text-slate-800" />
+          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-[33vw]  w-[100%]">
+            <div className="min-w-8 h-8 mt-1 mr-8 block text-start">
+              <FaLocationDot className="w-24 h-24 text-slate-800" />
             </div>
-            <div className="block">
+            <div className="block mt-6">
               <div className="font-sans font-bold text-xl mb-2 text-slate-800">
                 주소지
               </div>
@@ -60,11 +60,11 @@ const About = () => {
           </div>
         </div>
         <div className="mb-8 w-[33%]">
-          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
-            <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
-              <IoCall className="w-12 h-12 text-slate-800" />
+          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-[33vw]  w-[100%]">
+            <div className="min-w-8 h-8 mt-1 mr-8 block text-start">
+              <IoCall className="w-24 h-24 text-slate-800" />
             </div>
-            <div className="block">
+            <div className="block mt-6">
               <div className="font-sans font-bold text-xl mb-2 text-slate-800">
                 연락처
               </div>
@@ -75,11 +75,11 @@ const About = () => {
           </div>
         </div>
         <div className="mb-8 w-[33%]">
-          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
-            <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
-              <MdEmail className="w-12 h-12 text-slate-800" />
+          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-[33vw]  w-[100%]">
+            <div className="min-w-8 h-8 mt-1 mr-8 block text-start">
+              <MdEmail className="w-24 h-24 text-slate-800" />
             </div>
-            <div className="block">
+            <div className="block mt-6">
               <div className="font-sans font-bold text-xl mb-2 text-slate-800">
                 이메일
               </div>
@@ -90,11 +90,11 @@ const About = () => {
           </div>
         </div>
         <div className="mb-8 w-[33%]">
-          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-56  w-[100%]">
-            <div className="w-8 min-w-8 h-8 mt-1 mr-8 block text-start">
-              <BsPencilFill className="w-12 h-12 text-slate-800" />
+          <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-[33vw]  w-[100%]">
+            <div className="min-w-8 h-8 mt-1 mr-8 block text-start">
+              <BsPencilFill className="w-24 h-24 text-slate-800" />
             </div>
-            <div className="block">
+            <div className="block mt-6">
               <div className="font-sans font-bold text-xl mb-2 text-slate-800">
                 학력
               </div>

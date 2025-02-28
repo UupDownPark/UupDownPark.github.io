@@ -5,16 +5,16 @@ const Career = () => {
   return (
     <section
       id="career"
-      className="bg-cyan-300 w-full flex flex-col justify-center items-center"
+      className="bg-gray-100 w-full flex flex-col justify-center items-center h-[100vh]"
     >
       <span className="font-tenada text-[50px] mb-8 mt-16 border-b-4 border-black">
         CAREER
       </span>
       <div className="flex flex-row max-w-6xl mb-24">
-        <div>
+        <div className="flex justify-center items-center">
           <img
             src={daeu}
-            className="w-[20rem] h-[20rem]  border mr-24 border-gray-400"
+            className="w-[20vw] h-[20vh]  border mr-24 border-gray-400"
             alt=""
           />
         </div>
@@ -32,7 +32,6 @@ const Career = () => {
             <li className="font-noto-sans">
               HTML, CSS, JSP, Easy-ui 를 활용한 화면 개발
             </li>
-            <li className="font-noto-sans">프론트엔드(React, TypeScript)</li>
             <li className="font-noto-sans">
               MsSQL, PostgreSQL, Oracle 쿼리 수정(iBatis)
             </li>

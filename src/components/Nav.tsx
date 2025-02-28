@@ -2,10 +2,13 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <header className="bg-gray-800 w-[100%] flex flex-row items-center">
-      <div className="font-semibold text-medium text-white ml-6">
+    <header className="bg-gray-800 w-[100%] flex flex-row items-center sticky top-0 z-10 h-[7vh] shadow-2xl">
+      <a
+        href="#introduceContainer"
+        className="font-semibold text-medium text-white ml-6"
+      >
         Sangha's portfolio
-      </div>
+      </a>
       <div className="flex flex-row space-x-24 h-12 items-center justify-center ml-60">
         <a
           href="#about"

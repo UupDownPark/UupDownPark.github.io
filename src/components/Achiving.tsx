@@ -5,14 +5,14 @@ const Achiving = () => {
   return (
     <section
       id="archiving"
-      className="bg-yellow-500 w-full flex flex-col justify-center items-center"
+      className="bg-yellow-500 w-full flex flex-col justify-around items-center h-[100vh]"
     >
-      <span className="font-tenada text-[50px] mb-8 mt-16 border-b-4 border-black">
+      <span className="font-tenada mt-16 text-[50px] border-b-4 border-black">
         ARCHIVING
       </span>
       <div
         id="skillsContainer"
-        className="max-w-6xl py-16 px-8 content-around flex flex-col flex-wrap h-2/4"
+        className="max-w-6xl py-16 px-8 content-around flex flex-col flex-wrap h-2/4 mb-[25vh]"
       >
         <div
           id="stackContainerFrontend"
