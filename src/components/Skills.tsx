@@ -17,7 +17,7 @@ const Skills = () => {
       </span>
       <div
         id="skillsContainer"
-        className="max-w-6xl flex flex-col flex-wrap h-content w-full xl:h-[170vh] 2xl:h-[150vh]"
+        className="max-w-6xl flex flex-col flex-wrap w-full xl:h-[170vh] 2xl:h-[110vh]"
       >
         <div
           id="stackContainerFrontend"
