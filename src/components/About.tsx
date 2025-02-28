@@ -22,10 +22,12 @@ const About = () => {
               <MdPeopleAlt className="w-24 h-24 text-slate-800" />
             </div>
             <div className="block mt-6">
-              <div className="font-sans font-bold text-2xl mb-2 text-slate-800">
+              <div className="font-sans font-bold text-xl mb-2 text-slate-800">
                 이름
               </div>
-              <div className="font-sans font-normal text-xl text-gray-700">박상하</div>
+              <div className="font-sans font-normal text-lg text-gray-700">
+                박상하
+              </div>
             </div>
           </div>
         </div>
@@ -35,10 +37,10 @@ const About = () => {
               <FaCalendar className="w-24 h-24 text-slate-800" />
             </div>
             <div className="block mt-6">
-              <div className="font-sans font-bold text-2xl mb-2 text-slate-800">
+              <div className="font-sans font-bold text-xl mb-2 text-slate-800">
                 생년월일
               </div>
-              <div className="font-sans font-normal text-xl text-gray-700">
+              <div className="font-sans font-normal text-lg text-gray-700">
                 95.06.01
               </div>
             </div>
@@ -50,10 +52,10 @@ const About = () => {
               <FaLocationDot className="w-24 h-24 text-slate-800" />
             </div>
             <div className="block mt-6">
-              <div className="font-sans font-bold text-2xl mb-2 text-slate-800">
+              <div className="font-sans font-bold text-xl mb-2 text-slate-800">
                 주소지
               </div>
-              <div className="font-sans font-normal text-xl  text-gray-700">
+              <div className="font-sans font-normal text-lg  text-gray-700">
                 서울특별시 광진구 군자로7길 32
               </div>
             </div>
@@ -65,10 +67,10 @@ const About = () => {
               <IoCall className="w-24 h-24 text-slate-800" />
             </div>
             <div className="block mt-6">
-              <div className="font-sans font-bold text-2xl mb-2 text-slate-800">
+              <div className="font-sans font-bold text-xl mb-2 text-slate-800">
                 연락처
               </div>
-              <div className="font-sans font-normal text-xl text-gray-700">
+              <div className="font-sans font-normal text-lg text-gray-700">
                 010-5178-7098
               </div>
             </div>
@@ -80,10 +82,10 @@ const About = () => {
               <MdEmail className="w-24 h-24 text-slate-800" />
             </div>
             <div className="block mt-6">
-              <div className="font-sans font-bold text-2xl mb-2 text-slate-800">
+              <div className="font-sans font-bold text-xl mb-2 text-slate-800">
                 이메일
               </div>
-              <div className="font-sans font-normal text-xl text-gray-700">
+              <div className="font-sans font-normal text-lg text-gray-700">
                 geakura123@gmail.com
               </div>
             </div>
@@ -95,10 +97,10 @@ const About = () => {
               <BsPencilFill className="w-24 h-24 text-slate-800" />
             </div>
             <div className="block mt-6">
-              <div className="font-sans font-bold text-2xl mb-2 text-slate-800">
+              <div className="font-sans font-bold text-xl mb-2 text-slate-800">
                 학력
               </div>
-              <div className="font-sans font-normal text-xl text-gray-700">
+              <div className="font-sans font-normal text-lg text-gray-700">
                 부산대학교 <br /> (무역학부)
               </div>
             </div>
