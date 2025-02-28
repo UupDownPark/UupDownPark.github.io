@@ -21,10 +21,11 @@ function App() {
         <div className="flex flex-col justify-center items-center my-14 mx-14 animate-fadein h-full">
           <div className="flex flex-col items-center justify-around text-center h-2/3">
             <h1 className="font-noto-sans font-black text-5xl text-white">
-              박상하 <br /><br /> 프론트 엔드 개발자 포트폴리오{" "}
+              박상하 <br />
+              <br /> 프론트 엔드 개발자 포트폴리오{" "}
             </h1>
             <hr className="w-24 h-0 border-t-[0.3rem] border-cyan-500 mx-auto my-12 opacity-100" />
-            <div className="text-gray-100 flex flex-col space-y-[4%]">
+            <div className="text-gray-100 flex flex-col space-y-[3%]">
               <div className="font-tenada font-black text-2xl text-white">
                 {" "}
                 안녕하세요.
