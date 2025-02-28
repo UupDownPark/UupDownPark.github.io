@@ -15,7 +15,7 @@ const About = () => {
       <span className="font-tenada text-[50px] mt-16 border-b-4 border-black">
         ABOUT ME
       </span>
-      <div className="flex flex-wrap justify-between my-24 h-[85vh]">
+      <div className="flex flex-wrap justify-between my-24 h-[100%] w-full">
         <div className="mb-8 w-[33%]">
           <div className="flex flex-row flex-nowrap my-0 mx-auto  max-w-[33vw]  w-[100%]">
             <div className="min-w-24 h-8 mt-1 mr-8 block text-start">

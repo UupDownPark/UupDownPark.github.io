@@ -10,15 +10,11 @@ const Achiving = () => {
       <span className="font-tenada mt-16 text-[50px] border-b-4 border-black">
         ARCHIVING
       </span>
-      <div
-        id="skillsContainer"
-        className="max-w-6xl py-16 px-8 content-around flex flex-col flex-wrap h-2/4 mb-[25vh]"
-      >
         <div
           id="stackContainerFrontend"
-          className="h-fit bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-12"
+          className="h-1/2 w-1/3 flex flex-col items-center justify-center bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-12 p-8"
         >
-          <img src={Github} />
+          <img src={Github} className="h-1/2 w-3/4" />
           <a href="https://github.com/UupDownPark?tab=repositories">
             <div className="font-noto-sans text-lg mb-4 text-blue-600 hover:underline hover:underline-offset-1">
               https://github.com/UupDownPark?tab=repositories
@@ -43,7 +39,6 @@ const Achiving = () => {
             </div>
           </a>
         </div>
-      </div>
     </section>
   );
 };

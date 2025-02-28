@@ -21,7 +21,7 @@ const Skills = () => {
       >
         <div
           id="stackContainerFrontend"
-          className="w-[18vw] bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-3 p-6"
+          className="w-[25%] bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-3 p-6"
         >
           <div className="font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">
             Frontend
@@ -30,7 +30,7 @@ const Skills = () => {
         </div>
         <div
           id="stackContainerBackend"
-          className="w-[18vw] bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-3 p-6"
+          className="w-[25%] bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-3 p-6"
         >
           <div className="font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">
             Backend
@@ -38,26 +38,26 @@ const Skills = () => {
           <img src={BackEndStack} />
         </div>
 
-        <div className="w-[18vw] bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-3 p-6">
+        <div className="w-[25%] bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-3 p-6">
           <div className="font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">
             Communication <br /> & Dev tools
           </div>
           <img src={CommunicationDevtools} />
         </div>
-        <div className="w-[18vw] bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-3 p-6">
+        <div className="w-[25%] bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-3 p-6">
           <div className="font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">
             Certificate
           </div>
           <img src={Certificate} />
           <span className="font-bold font-tenada">정보처리기사(필기+실기)</span>
         </div>
-        <div className="w-[18vw] bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-3 p-6">
+        <div className="w-[25%] bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-3 p-6">
           <div className="font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">
             Version Control
           </div>
           <img src={VersionControl} />
         </div>
-        <div className="w-[18vw] bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-3 p-6">
+        <div className="w-[25%] bg-white rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-2 mb-8 mx-3 p-6">
           <div className="font-noto-sans text-2xl text-green-800 pb-2 mb-6 border-b border-slate-200">
             Deploy
           </div>

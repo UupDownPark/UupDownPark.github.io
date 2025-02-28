@@ -20,11 +20,11 @@ function App() {
       >
         <div className="flex flex-col justify-center items-center my-28 mx-14 animate-fadein">
           <div className="flex flex-col items-center justify-center text-center">
-            <h1 className="font-noto-sans font-black text-[50px] text-white">
+            <h1 className="font-noto-sans font-black text-6xl text-white">
               박상하 <br /> 프론트 엔드 개발자 포트폴리오{" "}
             </h1>
-            <hr className="w-24 h-0 border-t-[0.3rem] border-cyan-500 mx-auto my-6 opacity-100" />
-            <div className="font-noto-sans text-xl text-gray-100 flex flex-col space-y-5  mt-16">
+            <hr className="w-24 h-0 border-t-[0.3rem] border-cyan-500 mx-auto my-12 opacity-100" />
+            <div className="font-noto-sans text-xl text-gray-100 flex flex-col space-y-10  mt-16">
               <div className="font-tenada font-black text-[20px] text-white">
                 {" "}
                 안녕하세요.
