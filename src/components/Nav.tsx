@@ -9,7 +9,7 @@ const Nav = () => {
       >
         Sangha's portfolio
       </a>
-      <div className="flex flex-row space-x-24 h-12 items-center justify-center">
+      <div className="flex flex-row space-x-[10vw] h-12 ml-[15vw] items-center justify-center">
         <a
           href="#about"
           className="font-semibold text-medium text-white hover:text-cyan-400 active"

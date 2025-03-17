@@ -25,7 +25,7 @@ function App() {
               <br /> 프론트 엔드 개발자 포트폴리오{" "}
             </h1>
             <hr className="w-24 h-0 border-t-[0.3rem] border-cyan-500 mx-auto my-12 opacity-100" />
-            <div className="text-gray-100 flex flex-col space-y-[3%]">
+            <div className="text-gray-100 flex flex-col space-y-[3%] pb-3">
               <div className="font-tenada font-black text-2xl text-white">
                 {" "}
                 안녕하세요.

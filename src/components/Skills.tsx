@@ -10,14 +10,14 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="bg-green-500 w-full flex flex-col justify-center items-center h-content min-h-[100vh]"
+      className="bg-green-500 w-full flex flex-col justify-center items-center h-content"
     >
       <span className="font-tenada text-[50px] mb-8 mt-16 border-b-4 border-black">
         SKILLS
       </span>
       <div
         id="skillsContainer"
-        className="max-w-6xl flex flex-col flex-wrap w-full xl:h-[170vh] 2xl:h-[110vh]"
+        className="max-w-6xl flex flex-col flex-wrap w-full xl:h-[170vh] 2xl:h-[130vh]"
       >
         <div
           id="stackContainerFrontend"
