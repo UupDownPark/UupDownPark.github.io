@@ -2,14 +2,14 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <header className="bg-gray-800 w-[100%] flex flex-row items-center sticky top-0 z-10 h-[7vh] shadow-2xl">
+    <header className="bg-gray-800 w-full flex flex-row items-center sticky top-0 z-10 h-[10vh] shadow-2xl">
       <a
         href="#introduceContainer"
         className="font-semibold text-medium text-white ml-6"
       >
         Sangha's portfolio
       </a>
-      <div className="flex flex-row space-x-[10vw] h-12 ml-[15vw] items-center justify-center">
+      <div className="flex w-full flex-row items-center justify-around">
         <a
           href="#about"
           className="font-semibold text-medium text-white hover:text-cyan-400 active"
